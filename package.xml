@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<package>
+
+    <name>tams_glass</name>
+    <version>0.0.0</version>
+    <description>Detection and Reconstruction of Transparent Objects with Infrared Projection-based RGB-D Cameras</description>
+
+    <maintainer email="ruppel@informatik.uni-hamburg.de">Philipp Ruppel</maintainer>
+    <author email="ruppel@informatik.uni-hamburg.de">Philipp Ruppel</author>
+
+    <license>BSD</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>roscpp</build_depend>
+    <run_depend>roscpp</run_depend>
+
+    <build_depend>robot_model_loader</build_depend>
+    <run_depend>robot_model_loader</run_depend>
+
+    <build_depend>kinematics_base</build_depend>
+    <run_depend>kinematics_base</run_depend>
+
+    <build_depend>tf</build_depend>
+    <run_depend>tf</run_depend>
+
+    <build_depend>tf_conversions</build_depend>
+    <run_depend>tf_conversions</run_depend>
+
+    <build_depend>robot_state_publisher</build_depend>
+    <run_depend>robot_state_publisher</run_depend>
+
+    <build_depend>visualization_msgs</build_depend>
+    <run_depend>visualization_msgs</run_depend>
+
+    <build_depend>interactive_markers</build_depend>
+    <run_depend>interactive_markers</run_depend>
+
+    <build_depend>sensor_msgs</build_depend>
+    <run_depend>sensor_msgs</run_depend>
+
+    <build_depend>image_transport</build_depend>
+    <run_depend>image_transport</run_depend>
+
+    <build_depend>cv_bridge</build_depend>
+    <run_depend>cv_bridge</run_depend>
+
+    <build_depend>opencv2</build_depend>
+    <run_depend>opencv2</run_depend>
+
+    <build_depend>actionlib_msgs</build_depend>
+    <run_depend>actionlib_msgs</run_depend>
+
+    <build_depend>eigen_conversions</build_depend>
+    <run_depend>eigen_conversions</run_depend>
+
+    <build_depend>rosbag</build_depend>
+    <run_depend>rosbag</run_depend>
+
+    <build_depend>moveit_msgs</build_depend>
+    <run_depend>moveit_msgs</run_depend>
+
+    <build_depend>moveit_ros_planning_interface</build_depend>
+    <run_depend>moveit_ros_planning_interface</run_depend>
+
+    <build_depend>image_geometry</build_depend>
+    <run_depend>image_geometry</run_depend>
+
+    <build_depend>camera_info_manager</build_depend>
+    <run_depend>camera_info_manager</run_depend>
+
+    <build_depend>camera_calibration_parsers</build_depend>
+    <run_depend>camera_calibration_parsers</run_depend>
+
+    <build_depend>libpcl-all-dev</build_depend>
+    <run_depend>libpcl-all</run_depend>
+
+    <build_depend>pcl_conversions</build_depend>
+    <run_depend>pcl_conversions</run_depend>
+
+    <build_depend>pcl_ros</build_depend>
+    <run_depend>pcl_ros</run_depend>
+
+    <export>
+    </export>
+
+</package>
