@@ -11,8 +11,7 @@ and absorption, followed by optimization-based multi-view reconstruc
 tion of volumetric object models. Outputs from the segmentation stage
 can also be utilized for single-view transparent object detection. The
 presented methods improve on previous work by analyzing infrared camera images directly and by successfully reconstructing cavities in objects
-such as drinking glasses. A dataset of recorded transparent objects, autonomously gathered by a robotic camera-in-hand setup, is published
-together with this work.
+such as drinking glasses. 
 
 This repository contains code for generating volumetric 3D reconstructions of transparent objects. For detecting transparent objects, see: https://github.com/TAMS-Group/tams_bartender_glass_recognition.
 
